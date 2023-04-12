@@ -162,7 +162,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading  h2 {
+.right-about-heading h2 {
     text-align: right;
 }
 
@@ -175,6 +175,7 @@ hr {
     margin: 20px 0;
     font-size: 280%;
 }
+
 #circle-container {
     width: 300px;
     height: 300px;
@@ -227,7 +228,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -236,4 +237,17 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* photos */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
